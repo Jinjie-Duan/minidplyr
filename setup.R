@@ -1,0 +1,10 @@
+usethis::use_description()
+usethis::use_namespace()
+dir.create("R")
+usethis::use_package_doc()
+usethis::use_roxygen_md()
+usethis::use_package('dplyr')
+
+usethis::use_test()
+usethis::use_rcpp()
+usethis::use_git_ignore("minidplyr.Rproj")
