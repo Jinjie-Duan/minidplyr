@@ -3,3 +3,6 @@
 ^setup\.R$
 ^appveyor\.yml$
 ^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

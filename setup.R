@@ -13,3 +13,7 @@ usethis::use_build_ignore("setup.R")
 
 # check it on different os
 usethis::use_github_action_check_standard()
+
+# make website
+usethis::use_pkgdown()
+pkgdown:::build_site()
