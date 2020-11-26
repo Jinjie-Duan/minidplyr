@@ -1,2 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^setup\.R$
+^appveyor\.yml$
+^\.github$

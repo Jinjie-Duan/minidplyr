@@ -21,9 +21,9 @@ test <- function(x){
 
 #' Title
 #'
-#' @param x 
+#' @param x vector
 #'
-#' @return
+#' @return a df
 #' @export
 #'
 #' @examples test2(3)
@@ -55,13 +55,13 @@ select <- function(df,variables){
 
 #' Filter by row
 #'
-#' @param df 
-#' @param rows 
+#' @param df data frame
+#' @param rows vector
 #'
 #' @return a data frame with selected rows
 #' @export
 #'
-#' @examples filters(iris, 2:5)
+#' @examples filter2(iris, 2:5)
 filter2 <- function(df,rows){
   df[rows,]
 }

@@ -7,10 +7,10 @@
 test2(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{vector}
 }
 \value{
-
+a df
 }
 \description{
 Title

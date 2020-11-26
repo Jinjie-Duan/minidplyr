@@ -8,7 +8,7 @@ Authors@R:
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
-License: GPL3
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -20,3 +20,5 @@ Suggests:
     testthat
 LinkingTo: 
     Rcpp
+URL: https://github.com/Jinjie-Duan/minidplyr
+BugReports: https://github.com/Jinjie-Duan/minidplyr/issues

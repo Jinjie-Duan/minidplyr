@@ -7,9 +7,9 @@
 filter2(df, rows)
 }
 \arguments{
-\item{df}{}
+\item{df}{data frame}
 
-\item{rows}{}
+\item{rows}{vector}
 }
 \value{
 a data frame with selected rows
@@ -18,5 +18,5 @@ a data frame with selected rows
 Filter by row
 }
 \examples{
-filters(iris, 2:5)
+filter2(iris, 2:5)
 }
